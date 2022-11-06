@@ -28,7 +28,7 @@ As we are just entering our third semester, we don't know many things.But this t
 which was quite tough.
 
 
-## What we learned]
+## What we learned
 We got to know the importance of teamwork and also got to learn new technolgies nodejs,sql,php,expressjs.
 
 
