@@ -33,5 +33,5 @@ We got to know the importance of teamwork and also got to learn new technolgies 
 
 
 ## What's next
-We will make the UI and mainly the backend much better so that all college students can access the website.
-and be able to help each other.
+we would like make our website look more attartive and responsive. We would also like to make use of the database more effectively. And first of all, we would like to reduce the bugs in the website which occur mainly due to the backend part. We would also like to improve the backend part.
+We are also planning to take our project forward in the real life application and HELP THE SOCIETY.
