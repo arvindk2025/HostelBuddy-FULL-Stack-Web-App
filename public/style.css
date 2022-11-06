@@ -1,0 +1,211 @@
+#title{
+  background-color: #54BAB9 ;
+}
+#testimonials{
+  background-color: #fff ;
+  text-align: center;
+}
+.whaat{
+  padding-bottom: 3%;
+
+}
+.carousel-inner{
+    padding: 3% 15% ;
+}
+
+#about{
+  padding : 1% 3% ;
+  background-color: #A1E3D8;
+}
+body{
+  font-family: 'Montserrat'sans-serif;
+}
+.heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem ;
+  line-height: 1.5 ;
+  color: white ;
+
+}
+.heading1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem ;
+  line-height: 1.5 ;
+  color: white ;
+margin:2% 20% 2% 20%;
+}
+#features{
+  padding: 2% 15% 1.5% ;
+  background-color: #FFF;
+
+  text-align: center;
+
+  margin-bottom: 0 ;
+}
+ .h20{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem ;
+  line-height: 1.5 ;
+
+  color: #111;
+
+
+}
+.log{
+
+  width: 250px;
+  height: 50px;
+   border-radius: 10px;
+
+}
+.container-floid{
+  padding: 1% 15% ;
+}
+.down-btn{
+  margin: 5% 3% 5% 0 ;
+}
+.apple{
+  width: 28px;
+  height: 28px;
+  float : left;
+  margin-right: 5px;
+}
+#footer{
+  padding: 7% 15% ;
+  text-align: center;
+}
+@media(max-width:1214px) and  (min-width : 1000px){
+  .image_phone{
+    transform: rotate(0);
+    position: static;
+    align-items: center;
+  }
+  #features{
+    position: static;
+     bottom: 0px;
+    z-index: 0 ;
+    margin-bottom: 0px;
+}
+
+  }
+  @media(max-width : 1000px){
+    .image_phone{
+      transform: rotate(0);
+      position: static;
+      align-items: center;
+      width : 45% ;
+    }
+    #features{
+      position: static;
+       bottom: 0px;
+      z-index: 0 ;
+      margin-bottom: 0px;
+  }
+  .whaat{
+    text-align: center;
+  }
+  }
+
+.navbar{
+  padding-bottom: 60px;
+}
+
+.nav-item{
+  padding-right: 39px ;
+
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: 'Montserrat-light' ;
+
+}
+.navbar-nav{
+
+  padding-right: 30px;
+}
+/* HostelBuddy*/
+.hostel{
+  font-size: 2rem;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.feature-icon{
+  text-align: center;
+   padding: 1.3rem ;
+}
+h2{
+font-family: 'Montserrat' ;
+font-size: 1rem;
+}
+p{
+  font-family: 'Montserrat-light' ;
+  color: grey ;
+}
+.icon{
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:  #54BAB9;
+}
+.butto{
+  width : 12rem;
+  height: 3rem ;
+}
+
+.testimonials-image{
+  height: 10%;
+  width: 10% ;
+  border-radius: 100%;
+  margin-top: 1rem;
+  margin-right: 1rem;
+
+}
+.caring{
+  text-align: center;
+}
+#cta{
+  background-color:  #ff4c68 ;
+  text-align: center;
+  padding: 7% 15%  ;
+}
+.last_h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem ;
+  line-height: 1.2 ;
+  color: white ;
+
+}
+.ss{
+  padding: 6px 12px ;
+}
+/* footer css*/
+.lowwer{
+     height: 150px;
+    background-color: #54BAB9;
+
+}
+a:hover{
+  color: #EAF6F6 ;
+}
+.footer-link{
+  color : #11999E;
+  padding-left: 40px;
+  /* padding-top: 20px; */
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+.last{
+  color: #fff;
+  font-size: 0.90em;
+  margin-top: 40px ;
+  padding: 0 40% 0px;
+
+}
+.linkss{
+   margin-left: 500px  ;
+   padding-top: 40px;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}

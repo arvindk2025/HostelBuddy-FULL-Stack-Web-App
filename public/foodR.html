@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="FRstyle.css">
+</head>
+<body>
+    
+    <section id="heading">
+    <div class="h">
+        <h1>Food</h1>
+    </div>
+</section>
+<section id="content">
+    <div class="c">
+        <i>feeling hungry!<br>
+             Dont worry, we are here to help you out... <br>
+             </i>
+    <!-- <i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorum temporibus impedit fuga corporis cumque veniam magnam tempore necessitatibus quas.</i> -->
+</section>
+<div class="input">
+    <i>What would you like to have!</i>
+</div>
+<section id="fom">
+<form  role="search" action="" method="POST" id="form">
+    <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
+    <i class="fa-solid fa-magnifying-glass search-item"></i>
+    <button>
+      <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+    <input type="submit" value="Submit">
+    </button>
+  </form>
+</section>
+
+<script src="https://kit.fontawesome.com/531580b6d8.js" crossorigin="anonymous"></script>
+
+
+
+  <script>
+    const f = document.getElementById('form');
+    const q = document.getElementById('query');
+    const google = 'https://www.google.com/search?q=site%3A+';
+    const site = 'pagedart.com';
+
+    function submitted(event) {
+      event.preventDefault();
+      const url = google + site + '+' + q.value;
+      const win = window.open(url, '_blank');
+      win.focus();
+    }
+
+    f.addEventListener('submit', submitted);
+  </script>
+</body>
+</html>
