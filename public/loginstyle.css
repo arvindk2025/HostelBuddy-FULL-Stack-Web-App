@@ -58,7 +58,8 @@ padding: 0;
 }
 .input-group{
     top: 180px;
-    position: absolute;
+    /* position: absolute; */
+    margin-left:50px;
     width: 280px;
     transition: .5s;
 }
