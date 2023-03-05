@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Submit successfully</title>
+<link rel="stylesheet" href="laststyle.css">
+</head>
+<body>
+    <div class="container">
+        
+    <div class="popup open-popup" id="popup"> 
+<img src="tick.png">
+<h2>Thank You!</h2>
+<p>Your have been registered successfully. Thanks!</p>
+<a href="index.html"><button type="button" onclick="closePopup()">OK</button></a>
+    </div>
+    </div>
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
+ 
+
+</body>
+</html>
