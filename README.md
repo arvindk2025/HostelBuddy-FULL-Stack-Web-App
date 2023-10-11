@@ -1,4 +1,5 @@
 # HostelBuddy
+![HostelBuddy ](./img1.png?raw=true " HostelBuddy ")
 
 
 ## Inspiration
