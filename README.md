@@ -1,5 +1,5 @@
 # HostelBuddy
-![HostelBuddy ](./img1.png?raw=true " HostelBuddy ")
+![HostelBuddy ](./HostelBuddy-3.png?raw=true " HostelBuddy ")
 
 
 ## Inspiration
